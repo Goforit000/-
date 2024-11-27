@@ -1,0 +1,38 @@
+{
+  "name": "webvue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.0.0",
+    "@vue-office/docx": "^1.6.2",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^0.21.1",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.7.6",
+    "image-viewer": "^0.2.3",
+    "moment": "^2.30.1",
+    "pinia": "^2.1.7",
+    "quill": "^2.0.2",
+    "vue": "^3.4.29",
+    "vue-demi": "^0.14.6",
+    "vue-router": "^4.4.0",
+    "webvue": "file:"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.6",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}

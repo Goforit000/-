@@ -1,0 +1,15 @@
+import axios from 'axios';
+
+const API_URL = 'https://your-api-url.com/api';
+
+export const registerTenant = (data: { companyName: string, contact: string, account: string, password: string, captcha: string }) => {
+  return axios.post(`${API_URL}/register`, data);
+}
+
+export const login = (data: { account: string, password: string }) => {
+  return axios.post(`${API_URL}/login`, data);
+}
+
+export const adminLogin = (data: { username: string, password: string }) => {
+  return axios.post(`${API_URL}/admin/login`, data);
+}
